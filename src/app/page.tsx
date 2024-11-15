@@ -1,6 +1,8 @@
 import Cardmine from "@/components/ui/cardmine";
 import Cardmine2 from "@/components/ui/cardmine2";
 import Cardmine3 from "@/components/ui/cardmine3";
+import CardCircle
+ from "@/components/ui/cardCircle";
 import ContainerButtons from "@/components/ui/containerbuttons";
 
 export default function Home() {
@@ -12,6 +14,8 @@ export default function Home() {
       <Cardmine2 />
       <Cardmine3 />
       </div>
+      <CardCircle />
+
     </div>
   );
 }
