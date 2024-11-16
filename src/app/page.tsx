@@ -4,6 +4,8 @@ import Cardmine3 from "@/components/ui/cardmine3";
 import CardCircle from "@/components/ui/cardCircle";
 import CardVertical from "@/components/ui/cardVertical";
 import ContainerButtons from "@/components/ui/containerbuttons";
+import TextBorder from "@/components/ui/TextBorder";
+
 import Link from "next/link";
 
 export default function Home() {
@@ -23,8 +25,9 @@ export default function Home() {
         <Cardmine3 />
         <CardCircle />
         <CardVertical />
+        <TextBorder />
         </div>
-      
+        
       
     </div>
   );
