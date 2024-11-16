@@ -5,6 +5,7 @@ import CardCircle from "@/components/ui/cardCircle";
 import CardVertical from "@/components/ui/cardVertical";
 import ContainerButtons from "@/components/ui/containerbuttons";
 import TextBorder from "@/components/ui/TextBorder";
+import CardOval from "@/components/ui/cardOval";
 import TerminalEffect from "@/components/ui/TerminalEfect";
 import Link from "next/link";
 
@@ -29,6 +30,7 @@ export default function Home() {
         <div className="flex flex-col">
         <TextBorder />
         <TerminalEffect />
+        <CardOval />
         </div>
         </div>
         
