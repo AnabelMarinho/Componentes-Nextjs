@@ -13,7 +13,7 @@ const Cardmine3 = () => {
       </div>
 
       <div className="mt-4 sm:mt-0 sm:ml-4">
-        <img src="/img/gato1.jpg" className="w-[100px] h-[100px] rounded-lg" />
+        <img src="/img/gatoaquarela.png" className="w-[100px] h-[100px] rounded-lg" />
       </div>
     </div>
   );

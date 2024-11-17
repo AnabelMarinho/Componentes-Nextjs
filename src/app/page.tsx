@@ -12,6 +12,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
+    
      <div className="flex flex-col justify-center items-center mt-10 p-5 space-y-10">
         <Link 
           href="/SVG" 
@@ -19,7 +20,7 @@ export default function Home() {
         >
           Ir para Página de SVGs
         </Link>
-
+        
         <ContainerButtons />
         <Cardmine />
         <div className="w-full flex flex-wrap justify-center gap-5">
